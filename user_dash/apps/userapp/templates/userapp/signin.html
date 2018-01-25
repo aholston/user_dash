@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Sign In</h1>
+    <form action='signinfo' method='POST'>
+      {% csrf_token %}
+      <p>Email Address:</p>
+      <input type='email' name='email'>
+      <p>Password:</p>
+      <input type='password' name='password'>
+      <input type='submit' value='Sign In!'>
+    </form>
+    <a href='/register'>Don't have an account? Register.</a>
+  </body>
+</html>
