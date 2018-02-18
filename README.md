@@ -1,1 +1,1 @@
-This is one of the first full stack assignments I did when I was learning Python. It needs to be debugged. Admin class and User class being seperate are affecting the functionality. I am saving it as a side project to practice debugging when I have more free time.
+This is one of the first full stack assignments I did when I was learning Python. It needs to be debugged. Admin and User models being seperate are affecting the functionality. I am saving it as a side project to practice debugging when I have more free time.
